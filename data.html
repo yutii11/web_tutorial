@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>data attributes and custom element</title>
+</head>
+<body>
+    <article
+      data-post-id="12345"
+      data-author="john doe"
+      data-categorie="technology"
+      data-published="6789">
+        <h2>Article Title</h2>
+        <p>content..</p>
+    </article>
+            
+    </article>
+     <BUTTon data-action="delete" data-item-id="4567"
+     data-confirm-message="are you sure?"> delet item</BUTTon>
+
+     <dialog id="mydialog">
+        <h2>dialot title</h2>
+        <p>this is a model dialog</p>
+        <button on click="document.getElmentById
+        ('mydialog').close()"> close</button>
+     </dialog>
+    <button on click="document.getElmentById
+        ('mydialog').showmodal()"> open dialog</button>
+        <details>
+            <summary>click to expand</summary>
+            <p> This commentnis hidden</p>
+            <ul>
+                <li> item 1 </li>
+                <li> item 2</li>
+            </ul>
+        </details>
+     <label for=" file-progress">upload progress</label>
+     <progress ></progress>           
+</body>
+</html>
