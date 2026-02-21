@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html file</title>
+</head>
+<body>
+    <h3 align="center">zelda quiz form</h3><br></br>
+    <h1>Are you a zelda fan?</h1><br></br>
+    <fieldset>
+    <h2>About you</h2>
+    <form>
+        <label for="">what is your first name?</label><br>
+        <input type="fname"><br></br>
+        <label for="">what is your last name?</label><br>
+        <input type="lname"><br></br>
+         <p>
+            <strong>Date of birth</strong><br>
+            <!-- Calendar symbol using HTML entity -->
+            <span style="font-size:24px;">&#128197;</span> 
+            <!-- Alternative: <span style="font-size:24px;">🗓️</span> -->
+            
+            <input type="text" name="dob" placeholder="jj/mm/aaaa" 
+                   pattern="[0-9]{2}/[0-9]{2}/[0-9]{4}" 
+                   title="Use format: dd/mm/yyyy">
+            <br>
+        </p>
+        
+        <h2>
+            <strong>What are your pronouns?</strong><br>
+            <input type="radio" id="sheher" name="pronouns" value="she/her" checked>
+            <label for="sheher">she/her ✅</label><br>
+        </h2>
+    </fieldset>
+    </form>
+    <fieldset>
+        <h1>About zelda game..</h1>
+        <h2>Which zelda game is your favoriten(or sounds the coolest)?</h2>
+         <ul>
+            <li>ocarian of time</li>
+            <li>breath of the wild</li>
+            <li>twilight princess</li>
+         </ul>
+         <h2>if you could visit hyrule, would you?</h2>
+          <ul>
+            <li>yes absolutely</li>
+            <li>maybe,if there was less bokoblins</li>
+            <li>no,sorry link</li>
+          </ul>
+          <h2>what color are link's clothes?</h2>
+    </fieldset>
+</body>
+</html>
